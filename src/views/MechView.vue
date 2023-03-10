@@ -1,14 +1,14 @@
 <template>
   <div>
     <ButtonBack />
-    <h1 class="header">Parter 29</h1>
+    <h1 class="header">Parter 1, 7, 17</h1>
     <div class="img-container">
       <img
         src="../assets/pietro.png"
         style="max-width: 100%; max-height: 100%"
       />
     </div>
-    <h1 class="header">I Piętro 126</h1>
+    <h1 class="header">I Piętro 108</h1>
     <div class="img-container">
       <img
         src="../assets/pietro.png"
@@ -17,11 +17,10 @@
     </div>
   </div>
 </template>
-
 <script>
 import ButtonBack from "../components/ButtonBack.vue";
 export default {
-  name: "EkoView",
+  name: "MechView",
   components: { ButtonBack },
 };
 </script>

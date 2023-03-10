@@ -3,16 +3,16 @@
     <div class="color-inf" @click="infView">
       <h1>Informatyka</h1>
     </div>
-    <div class="color-rol">
+    <div class="color-rol" @click="rolView">
       <h1>Rolnictwo</h1>
     </div>
     <div class="color-eko" @click="ekoView">
       <h1>Ekonomia</h1>
     </div>
-    <div class="color-mech">
+    <div class="color-mech" @click="mechView">
       <h1>Mechanika i budowa maszyn</h1>
     </div>
-    <div class="color-inz">
+    <div class="color-inz" @click="inzView">
       <h1>Inżynieria środowiska</h1>
     </div>
   </div>
@@ -30,6 +30,15 @@ export default {
     },
     ekoView() {
       router.push({ name: "eko" });
+    },
+    rolView() {
+      router.push({ name: "rol" });
+    },
+    inzView() {
+      router.push({ name: "inz" });
+    },
+    mechView() {
+      router.push({ name: "mech" });
     },
   },
 };
