@@ -53,6 +53,9 @@ export default {
   border-color: #8e59ff;
   border-radius: 10px;
   margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
 }
 .color-rol {
   background-color: #30211b;
@@ -62,6 +65,9 @@ export default {
   border-radius: 10px;
   margin-top: 10px;
   margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
 }
 .color-eko {
   background-color: #161a1a;
@@ -71,6 +77,9 @@ export default {
   border-radius: 10px;
   margin-top: 10px;
   margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
 }
 .color-mech {
   background-color: #1d1a24;
@@ -80,6 +89,9 @@ export default {
   border-radius: 10px;
   margin-top: 10px;
   margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
 }
 .color-inz {
   background-color: #1f171d;
@@ -89,5 +101,8 @@ export default {
   border-radius: 10px;
   margin-top: 10px;
   margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
 }
 </style>
