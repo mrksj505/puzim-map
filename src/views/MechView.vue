@@ -1,17 +1,17 @@
 <template>
   <div>
     <ButtonBack />
-    <h1 class="header">Parter 1, 7, 17</h1>
+    <h1 class="header">Parter: sale 1, 7, 17</h1>
     <div class="img-container">
       <img
-        src="../assets/pietro.png"
+        src="../assets/mech1.png"
         style="max-width: 100%; max-height: 100%"
       />
     </div>
-    <h1 class="header">I Piętro 108</h1>
+    <h1 class="header">I Piętro: sala 108</h1>
     <div class="img-container">
       <img
-        src="../assets/pietro.png"
+        src="../assets/mech2.png"
         style="max-width: 100%; max-height: 100%"
       />
     </div>
@@ -26,7 +26,7 @@ export default {
 </script>
 <style>
 .header {
-  color: #4c21a2;
+  color: white;
 }
 .img-container {
   margin: auto;

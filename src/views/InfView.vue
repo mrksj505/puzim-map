@@ -1,12 +1,9 @@
 <template>
   <div>
     <ButtonBack />
-    <h1 class="header">II Piętro 202A</h1>
+    <h1 class="header">II Piętro: sala 202A</h1>
     <div class="img-container">
-      <img
-        src="../assets/pietro.png"
-        style="max-width: 100%; max-height: 100%"
-      />
+      <img src="../assets/inf.png" style="max-width: 100%; max-height: 100%" />
     </div>
   </div>
 </template>
@@ -19,7 +16,7 @@ export default {
 </script>
 <style>
 .header {
-  color: #4c21a2;
+  color: white;
 }
 .img-container {
   margin: auto;

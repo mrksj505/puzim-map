@@ -1,12 +1,9 @@
 <template>
   <div>
     <ButtonBack />
-    <h1 class="header">Parter 25A, 2</h1>
+    <h1 class="header">Parter: sale 25A, 2</h1>
     <div class="img-container">
-      <img
-        src="../assets/pietro.png"
-        style="max-width: 100%; max-height: 100%"
-      />
+      <img src="../assets/inz.png" style="max-width: 100%; max-height: 100%" />
     </div>
   </div>
 </template>
@@ -19,7 +16,7 @@ export default {
 </script>
 <style>
 .header {
-  color: #4c21a2;
+  color: white;
 }
 .img-container {
   margin: auto;
