@@ -5,10 +5,16 @@ import EkoView from "./views/EkoView.vue";
 import RolView from "./views/RolView.vue";
 import InzView from "./views/InzView.vue";
 import MechView from "./views/MechView.vue";
+import StartView from "./views/StartView.vue";
 const routes = [
   {
     path: "/",
     name: "Home",
+    component: StartView,
+  },
+  {
+    path: "/",
+    name: "MainScreen",
     component: MainScreen,
   },
   {

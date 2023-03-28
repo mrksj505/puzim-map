@@ -1,5 +1,5 @@
 <template>
-  <button class="button-back" @click="goBack">⬅️Powrót</button>
+  <button class="button-start" @click="goStart">➡️Przejdź</button>
 </template>
 
 <script>
@@ -9,7 +9,7 @@ export default {
   name: "Baner",
   data: () => ({}),
   methods: {
-    goBack() {
+    goStart() {
       router.push({ name: "MainScreen" });
     },
   },
@@ -18,11 +18,8 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-.button-back {
+.button-start {
   font-size: 30px;
-  position: absolute;
-  left: 0;
-  top: 0;
   color: white;
   background-color: #14111a;
   border: none;
